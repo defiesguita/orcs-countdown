@@ -2,10 +2,19 @@
   text-align: center;
 }
 
+
 .CountDown {
     display: flex;
     justify-content: center;
     height: 100vh;
+}
+
+@media (max-width: 768px) {
+  .flip-clock {
+    --fcc-digit-block-width: 20px !important;
+    --fcc-digit-block-height: 44px !important;
+    --fcc-digit-font-size: 16px !important;
+  }
 }
 .Complete {
   display: flex;

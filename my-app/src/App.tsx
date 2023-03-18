@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <div className='CountDown'>
-         <FlipClockCountdown to={new Date().getTime() + diff} >
+         <FlipClockCountdown className='flip-clock' to={new Date().getTime() + diff} >
             <Completed />
          </FlipClockCountdown>
       </div>
