@@ -8,7 +8,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: url('../src/img/desktop-black.jpg');
   background-size: cover;
-  background-color: #6886b8;
+  background-color: #808183;
   background-repeat: no-repeat;
   background-position: bottom;
   height: 100vh;
@@ -20,7 +20,6 @@ body {
     background: url('../src/img/mobile-black.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
-    background-color: #808183;
 }
 }
 
