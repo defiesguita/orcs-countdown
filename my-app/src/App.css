@@ -9,6 +9,12 @@
     height: 100vh;
 }
 
+.flip-clock {
+  display: inline-flex;
+  align-items: baseline;
+  margin-top: 30px;
+}
+
 @media (max-width: 768px) {
   .flip-clock {
     --fcc-digit-block-width: 20px !important;
