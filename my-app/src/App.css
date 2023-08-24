@@ -27,12 +27,25 @@
   justify-content: center;
   height: 100vh;
   align-items: center;
+  animation: myAnim 2s ease 0s 1 normal none;
+  flex-direction: column;
 }
 .Complete-inner {
   border: 5px solid green;
   padding: 20px;
   color: white;
   font-size: 30px;
+}
+
+.Complete img {
+  border: 2px solid black;
+  border-radius: 100px;
+}
+
+.Complete h2 {
+  color: #f7f7f7;
+    margin-bottom: -30px;
+    z-index: 1;
 }
 
 .Complete-inner-link {
@@ -45,3 +58,49 @@
 }
 
 
+
+@keyframes myAnim {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 1;
+		transform: translateY(155px);
+	}
+
+	24% {
+		opacity: 1;
+	}
+
+	40% {
+		animation-timing-function: ease-in;
+		transform: translateY(24px);
+	}
+
+	65% {
+		animation-timing-function: ease-in;
+		transform: translateY(12px);
+	}
+
+	82% {
+		animation-timing-function: ease-in;
+		transform: translateY(6px);
+	}
+
+	93% {
+		animation-timing-function: ease-in;
+		transform: translateY(4px);
+	}
+
+	25%,
+	55%,
+	75%,
+	87% {
+		animation-timing-function: ease-out;
+		transform: translateY(0px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
