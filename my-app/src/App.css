@@ -15,6 +15,16 @@
   margin-top: 30px !important;
 }
 
+.footer {
+	position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #999;
+    color: white;
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+
 @media (max-width: 768px) {
   .flip-clock {
     --fcc-digit-block-width: 20px !important;
@@ -104,3 +114,44 @@
 		transform: translateY(0px);
 	}
 }
+
+.next-release {
+    margin: 10px;
+    color: white;
+    font-size: 1.5rem;
+    background: #999;
+    border-radius: 8px;
+}
+.fadeInUp {
+	-webkit-animation-name: fadeInUp;
+	animation-name: fadeInUp;
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+	animation-delay: 0.5s;
+	}
+	@-webkit-keyframes fadeInUp {
+	0% {
+	opacity: 0;
+	-webkit-transform: translate3d(0, 100%, 0);
+	transform: translate3d(0, 100%, 0);
+	}
+	100% {
+	opacity: 1;
+	-webkit-transform: none;
+	transform: none;
+	}
+	}
+	@keyframes fadeInUp {
+	0% {
+	opacity: 0;
+	-webkit-transform: translate3d(0, 100%, 0);
+	transform: translate3d(0, 100%, 0);
+	}
+	100% {
+	opacity: 1;
+	-webkit-transform: none;
+	transform: none;
+	}
+	} 
