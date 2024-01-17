@@ -13,7 +13,7 @@ function App() {
   return (
       <div className="App">
         <div className='next-release'>
-          release date: <br />
+          DELAY date: <br />
           {
              releaseDate.toLocaleString(undefined, {year: 'numeric', month: '2-digit', day: '2-digit', weekday:"long"}) // 'Wednesday, 14/06/2023, 13:43:57'
           }
